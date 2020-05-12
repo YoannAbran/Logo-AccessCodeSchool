@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Helvetica;
+  src: url("Font/Helvetica.ttf") format("truetype");
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+div {
+  text-transform: uppercase;
+}
+
+#AC {
+  display: flex;
+
+}
+
+#ACS {
+  width: auto;
+  justify-content: center;
+}
+
+.access {
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  /*text-decoration: underline;
+  text-underline-position: under;*/
+}
+
+.code {
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  /*text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: black;*/
+  color: white;
+  background-color: #F24A66;
+}
+
+.school {
+  display: inline-block;
+  text-align: center;
+  padding-left: 1.45em;
+  letter-spacing: 2em;
+  font-weight: 25;
+  transform: scaleY(1.8);
+  line-height: 1.8em;
+}
+
+.lt {
+  display: flex;
+  font-size: 2em;
+  font-weight: bold;
+  color: #F24A66;
+  transform: scaleY(1.2);
+  padding-right: .200em;
+  align-items: center;
+  justify-content: center;
+}
+
+.gt {
+  display: inline-flex;
+  font-size: 2em;
+  font-weight: bold;
+  color: #F24A66;
+  transform: scaleY(1.2);
+  padding-left: .200em;
+  align-items: center;
+  justify-content: center;
+}
