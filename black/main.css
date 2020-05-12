@@ -1,12 +1,13 @@
 @font-face {
   font-family: Helvetica;
-  src: url("Font/Helvetica.ttf") format("truetype");
-  src: url("Font/helvetica-light.ttf") format("truetype");
+  src: url("../Font/Helvetica.ttf") format("truetype");
+  src: url("../Font/helvetica-light.ttf") format("truetype");
 }
 
 
 body {
   font-family: Helvetica, sans-serif;
+  background-color: black;
 }
 
 div {
@@ -26,13 +27,14 @@ div {
 .access {
   font-size: 2em;
   font-weight: bold;
-  border-bottom: 0.5px solid black;
+  color: white;
+  border-bottom: 0.5px solid white;
 }
 
 .code {
   font-size: 2em;
-  border-bottom: 0.5px solid black;
-  color: white;
+  border-bottom: 0.5px solid white;
+  color: black;
   background-color: #F24A66;
 }
 
@@ -45,6 +47,7 @@ div {
   font-weight: lighter;
   transform: scaleY(1.8);
   line-height: 1.8em;
+  color: white;
 }
 
 .lt {
