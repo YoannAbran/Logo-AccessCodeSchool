@@ -27,6 +27,7 @@ div {
   font-size: 2em;
   font-weight: bold;
   border-bottom: 0.5px solid black;
+  padding-right: .08em;
 }
 
 .code {
@@ -34,6 +35,7 @@ div {
   border-bottom: 0.5px solid black;
   color: white;
   background-color: #F24A66;
+  padding-left: .08em;
 }
 
 .school {
@@ -43,7 +45,7 @@ div {
   padding-left: 1.45em;
   letter-spacing: 2em;
   font-weight: lighter;
-  transform: scaleY(1.8);
+  transform: scaleY(1.5);
   line-height: 1.8em;
 }
 
@@ -52,7 +54,7 @@ div {
   font-size: 2em;
   color: #F24A66;
   transform: scaleY(1.2);
-  padding-right: .200em;
+  padding-right: .100em;
 
 }
 
@@ -61,6 +63,6 @@ div {
   font-size: 2em;
   color: #F24A66;
   transform: scaleY(1.2);
-  padding-left: .200em;
+  padding-left: .100em;
 
 }
